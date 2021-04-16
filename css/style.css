@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #FFC433;/*#ecf0f1*/
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+/*estilo de botones*/
+.boton {
+border: 1px solid #E11B1B; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #E11B1B; /*color botón #2e518b*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+border-radius: 50px; /*bordes redondos*/
+float:left;
+}
+/*estilo de bordes de imagenes*/
+.iborde {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    /*height: 100px;
+    width: 100px;*/
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+/*estilo de parrafos*/
+p {
+  color: #524c56;
+  font-size: 160%;
+  line-height: 155%;
+  padding: 3%;
+  text-indent: 2%;
+  text-align: justify;
+}
+/*estilo de subtitulos*/
+h3 {
+  font-size: 175%;
+  line-height: 155%;
+  font-weight: 500;
+  color: #524c56;
+  text-align: center;
+  text-transform: uppercase;/*uppercase es para todo mayuscula*/
+  padding: 0;
+}
+/*estilos de palabra se navegacion y etc*/
+a {
+  color: #524c56;
+  text-decoration: none;
+  font-weight: bold;
+}
+/*estilos de palabra se navegacion y cuando
+te posicionas ahi cambia de color*/
+a:hover {
+  color: #c3d7df;
+}
+/*estilo de imagenes*/
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: -4px;
+  border-radius: 60px;/*redondear*/
+}
+/*esilos del contenedor*/
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#banner-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 3% 0;
+}
+/*estilo de la cabezera*/
+header {
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+}
+/*estilo de la cabezera del logo*/
+header #logo img{
+  margin: 20px;
+  float: left;
+  width: 100px;
+}
+
+/* estilos de NAVIGATION*/
+nav {
+  float: right;
+  padding: 25px 20px 0px 0px;
+  /*position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+/*estilo de navegacion del icono*/
+#menu-icon {
+  display: none;
+  font-size: 50px;
+}
+/*estilo de los enlaces de navegacion*/
+ul {
+  list-style: none;
+}
+
+nav ul li {
+  font-size: 150%;
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
+
+nav ul li a {
+  color: #6991AC;
+}
+
+.current {
+  color: #3F5767;
+}
+
+a:hover {
+  color: #a5bdcd;
+}
+/*
+.slider {
+  max-width: 1200px;
+}
+
+.slider img {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}*/
+/*estilo de la separacion de parrafos de mision vision etc*/
+.one-third {
+  width: 31.5%;
+  float: left;
+  padding: 10px;
+  text-align: center;
+}
+
+.icon-wrap {
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  background-color: #33B777;/*#E11B1B;/*#6991ac;*/
+  border-radius: 125px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.icon-wrap i {
+  text-align: center;
+  color: #ffffff;
+  font-size: 450%;
+  padding: 20%;
+}
+
+/* estilo de la parte productos SECTION 2*/
+.left-col {
+  float: left;
+  margin: 0 auto;
+  width: 60%;
+  height: auto;
+  padding: 1%;
+}
+
+.sidebar {
+  float: right;
+  margin: 0 auto;
+  width: 32%;
+  height: auto;
+  padding: 1%;
+}
+
+/* ONE THIRD PADDING*/
+.one-third-padding {
+  width: 29%;
+  float: left;
+  margin: 2% 2%;
+}
+
+.clearfix-padding {
+  clear: both;
+  padding: 2%;
+}
+/* estilos del pie de pantalla*/
+footer {
+  background: #FF336B;/*#2c3e50*/
+  width: 100%;
+  overflow: auto;
+}
+.icon-text {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.icon-text-icon {
+  float: left;
+  width: 20%;
+  padding: 4%;
+}
+.icon-text-text {
+  float: left;
+  width: 60%;
+  padding: 4% 4% 2% 0;
+  font-size:
+}
+
+.footer-nav {
+  text-align: right;
+}
+
+.footer-nav a {
+  font-size: 160%;
+  color: #c3d7df;
+  font-weight: 300;
+}
+
+.footer-nav a:hover {
+  color: #f5f5f5;
+}
+
+.social {
+  list-style-type: none;
+  text-align: center;
+}
+
+.social li {
+  display: inline;
+}
+
+.social i {
+  font-size: 420%;
+  margin: 1%;
+  padding: 5%;
+  color: #c3d7df;
+}
+
+.social i:hover {
+  color: #f5f5f5;
+}
+/*estilos de la ultima linea del copyrigth*/
+footer.second {
+  border-top: 1px solid #aadcd2;
+  text-align: center;
+  margin: 0;
+}
+/*estilos de la ultima linea por etiquetas*/
+footer.second p, .second a {
+  text-align: center;
+  color: #fff;
+  font-size: 160%;
+  line-height: 155%;
+}
+/*estilos para vista celular*/
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 130%;
+  }
+  h3 {
+    font-size: 150%;
+  }
+  header {
+    height: 80px;
+    position: relative;
+  }
+  header #logo {
+    margin: 15px 0 20px -25px;
+  }
+
+  #menu-icon {
+    display: inline-block;
+  }
+
+  nav:hover ul {
+    display: block;
+  }
+
+  nav ul, nav:active ul {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    padding: 20px;
+    background: #f5f5f5;
+    border: 1px solid #a5bdcd;
+    right: 20px;
+    width: 30%;
+    opacity: .95;
+  }
+  nav li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .one-third {
+    float: left;
+    width: 100%;
+
+  }
+  .icon-wrap {
+    height: 80px;
+    width: 80px;
+    margin-top: 3%;
+  }
+
+  .icon-wrap i {
+    font-size: 250%;
+    padding-top: 27%;
+  }
+
+  .left-col {
+    width: 100%;
+    padding: 0;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .one-third-padding {
+    width: 98%;
+    margin: 0;
+    padding: 1%;
+  }
+
+  .icon-text-icon {
+    width: 100%;
+    padding: 0 0 2% 0;
+  }
+
+  .icon-text-text {
+    width: 100%;
+    padding: 2% 0 0 0;
+    font-size: 80%;
+  }
+
+  .footer-nav {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5%;
+  }
+
+  .footer-nav li {
+    padding: 1%;
+  }
+
+}
